@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+  "build": "vite build && npx cap sync"
   },
   "dependencies": {
     "@adplorg/capacitor-in-app-purchase": "^2.0.64",

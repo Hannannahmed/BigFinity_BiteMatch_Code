@@ -2,36 +2,8 @@
 	"appId": "com.bitematch.app",
 	"appName": "BiteMatch",
 	"webDir": "dist",
-	"server": {
-		"androidScheme": "https"
-	},
-	"ios": {
-		"contentInset": "automatic",
-		"scrollEnabled": true,
-		"backgroundColor": "#e7f3fb"
-	},
-	"android": {
-		"backgroundColor": "#e7f3fb",
-		"allowMixedContent": true
-	},
-	"plugins": {
-		"SplashScreen": {
-			"launchShowDuration": 2000,
-			"backgroundColor": "#2980B9",
-			"showSpinner": false,
-			"androidSplashResourceName": "splash",
-			"iosSplashResourceName": "Splash"
-		},
-		"StatusBar": {
-			"style": "default",
-			"backgroundColor": "#2980B9",
-			"overlaysWebView": false
-		},
-		"Keyboard": {
-			"resize": "body",
-			"style": "dark",
-			"resizeOnFullScreen": true
-		}
-	},
-	"packageClassList": []
+	"bundledWebRuntime": false,
+	"packageClassList": [
+		"CapacitorInAppPurchasePlugin"
+	]
 }
