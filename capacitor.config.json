@@ -1,5 +1,6 @@
 {
   "appId": "com.bitematch.app",
-  "appName": "abc",
-  "webDir": "www"
+  "appName": "BiteMatch",
+  "webDir": "dist",
+  "bundledWebRuntime": false
 }
