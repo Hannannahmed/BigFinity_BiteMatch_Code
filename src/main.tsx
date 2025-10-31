@@ -1,0 +1,28 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import ErrorBoundary from './components/ErrorBoundary';
+import './index.css';
+
+// For mobile apps (Capacitor), always show the app directly
+// For web, we can add routing later if needed
+createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  </React.StrictMode>
+);
+
+// Register service worker for PWA functionality
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((registration) => {
+        console.log('SW registered: ', registration);
+      })
+      .catch((registrationError) => {
+        console.log('SW registration failed: ', registrationError);
+      });
+  });
+}

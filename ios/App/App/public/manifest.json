@@ -1,0 +1,40 @@
+{
+  "name": "BiteMatch - Perfect Portion Calculator",
+  "short_name": "BiteMatch",
+  "description": "AI-powered culinary assistant that analyzes your food and gives you perfect portion recommendations. Never run out of sauce again!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e7f3fb",
+  "theme_color": "#2980B9",
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/logo-180.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-1024.svg",
+      "sizes": "1024x1024", 
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "screenshots": [
+    {
+      "src": "/logo-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ]
+}

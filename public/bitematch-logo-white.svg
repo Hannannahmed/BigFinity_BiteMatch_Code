@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-label="BiteMatch Logo">
+  <path 
+    d="M 30 15 v 70 C 60 85, 60 65, 45 55 C 60 45, 75 35, 75 15 v 70"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
